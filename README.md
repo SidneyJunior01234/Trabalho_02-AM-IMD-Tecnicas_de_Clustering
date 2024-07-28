@@ -34,10 +34,24 @@ Por último temos a visualização do agrupamento usando o agrupamento espectral
 
 ![image](https://github.com/user-attachments/assets/3bb3a90b-b4eb-4ed6-9375-cf43e61b568b)
 
+| Modelo | Silhouette | Calinski-Harabasz | Davies-Bouldin |
+|---|---|---|---|
+| K-means | 0.2776 | 66.9063 | 1.6117 |
+| Agrupamento Hierárquico | 0.2418 | 67.0422 | 1.6611 |
+| Agrupamento Espectral | 0.2776 | 66.9063 | 1.6117 |
+
+**Tabela 1: Comparação das métricas de avaliação dos algoritmos de agrupamento**
+
+Ao comparar os algoritmos de clustering K-Means, Agrupamento Hierárquico e Agrupamento Espectral para a segmentação de clientes com base em idade, renda anual e pontuação de gastos, observamos que o K-Means e o Agrupamento Espectral apresentaram resultados semelhantes em termos de coesão e separação dos clusters. Ambos os métodos demonstraram clusters bem definidos, enquanto o Agrupamento Hierárquico, embora tenha obtido um Calinski-Harabasz Score ligeiramente superior, mostrou uma coesão e separação dos clusters menos eficazes.
+
+Portanto, para a segmentação eficiente dos clientes nesta base de dados específica, tanto o K-Means quanto o Agrupamento Espectral são escolhas viáveis, com uma leve preferência pelo Agrupamento Espectral devido à sua capacidade de lidar com estruturas complexas nos dados.
+
 ## Notebook
 
-![Mall_Customers_Clustering.ipynb](https://github.com/SidneyJunior01234/Trabalho_02-AM-IMD-T-cnicas_de_Clustering/blob/main/Mall_Customers_Clustering.ipynb)
+[Mall_Customers_Clustering.ipynb](https://github.com/SidneyJunior01234/Trabalho_02-AM-IMD-T-cnicas_de_Clustering/blob/main/Mall_Customers_Clustering.ipynb)
 
 ## Realizadores do trabalho avaliativo
-![Claudiano Leonardo da Silva](https://github.com/ClaudianoLeonardo)
-![Sidney Alves dos Santos Junior](https://github.com/SidneyJunior01234)
+
+[Claudiano Leonardo da Silva](https://github.com/ClaudianoLeonardo)
+
+[Sidney Alves dos Santos Junior](https://github.com/SidneyJunior01234)
